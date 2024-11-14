@@ -13,18 +13,6 @@ app.use(globalErrorHandler)
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
 
 app.use(notFound)
 
