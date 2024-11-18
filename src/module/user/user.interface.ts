@@ -2,7 +2,7 @@
 export type UserRole = 'admin'|'user';
 
 
- export type IUser = {
+ export type TUser = {
     name: string;
     email: string;
     password: string;
@@ -10,3 +10,5 @@ export type UserRole = 'admin'|'user';
     role: UserRole;
     address: string;
   }
+
+
